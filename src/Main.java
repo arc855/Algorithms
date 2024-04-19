@@ -1,5 +1,7 @@
 import com.array.algorithm.KthLargestAndSmallestElement;
 import com.array.algorithm.OccuranceOfInteger;
+import com.twodimensional.array.Basics;
+import com.twodimensional.array.MakeWholeRowColZero;
 
 public class Main {
 
@@ -56,12 +58,18 @@ public class Main {
 //        System.out.println("reverese array is : "+ Arrays.toString(reverseArray.reverseAnArray(myArray)));
 //
 
-        KthLargestAndSmallestElement kthLargestElement = new KthLargestAndSmallestElement();
-        System.out.println("kth largest element : "+kthLargestElement.kthLargestvalue(myArray,2));
-        System.out.println("kth smallest element : "+kthLargestElement.kthsmallestvalue(myArray,2));
+//        KthLargestAndSmallestElement kthLargestElement = new KthLargestAndSmallestElement();
+//        System.out.println("kth largest element : "+kthLargestElement.kthLargestvalue(myArray,2));
+//        System.out.println("kth smallest element : "+kthLargestElement.kthsmallestvalue(myArray,2));
+//
+//        OccuranceOfInteger occuranceOfInteger = new OccuranceOfInteger();
+//        System.out.println("Occurance of an INteger  : "+ occuranceOfInteger.occuranceofAnInteger(myArray,10));
+//        Basics basics = new Basics();
+//        basics.declareAndPrint2DArray();
+        int[][] twoDarray = new int[][]{{1,2},{0,2},{6,9},{2,9}};
 
-        OccuranceOfInteger occuranceOfInteger = new OccuranceOfInteger();
-        System.out.println("Occurance of an INteger  : "+ occuranceOfInteger.occuranceofAnInteger(myArray,10));
+        MakeWholeRowColZero makeWholeRowColZero = new MakeWholeRowColZero();
+        makeWholeRowColZero.makeRowColZeroIfZero(twoDarray);
 
 
 
