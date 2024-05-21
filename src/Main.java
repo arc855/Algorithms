@@ -3,6 +3,7 @@ import com.array.algorithm.StairCase;
 import com.basics.FactorialOfNumber;
 import com.linkedlist.algorithm.*;
 import com.sorting.algorithms.CountingSort;
+import com.sorting.algorithms.FindMissingNumber;
 import com.sorting.algorithms.InsertionSort;
 import com.sorting.algorithms.InsertionSort1;
 import com.srting.algorithm.*;
@@ -159,7 +160,7 @@ public class Main {
         MakeClock makeClock = new MakeClock();
 //        makeClock.watchTime();
         List<Integer> list = new ArrayList<>(
-                Arrays.asList(1 ,3,3));
+                Arrays.asList(1,2,3,4,5,7));
         PlusMinus plusMinus = new PlusMinus();
 //        plusMinus.plusMinus(pm);
         GradingStudents gradingStudents = new GradingStudents();
@@ -171,7 +172,9 @@ public class Main {
 //        insertionSort1.insertionSort1(14,list);
 
         CountingSort countingSort = new CountingSort();
-        System.out.println(countingSort.countingSort(list));
+//        System.out.println(countingSort.countingSort(list));
+        FindMissingNumber findMissingNumber = new FindMissingNumber();
+        System.out.println(findMissingNumber.findMissinNumber(list));
 
 
 
