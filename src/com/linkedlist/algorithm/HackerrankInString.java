@@ -12,6 +12,7 @@ public class HackerrankInString {
         for (int i = 0; i < target.length(); i++) {
             stack.push(target.charAt(i));
         }
+        System.out.println("stack string : "+stack);
         for (int i = s.length() - 1; i >= 0; i--) {
             if (stack.empty()) {
                 return "YES";

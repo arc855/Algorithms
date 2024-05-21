@@ -14,7 +14,8 @@ public class InsertionSort {
                 j = j - 1;
             }
             arr[j + 1] = key;
+            System.out.println(Arrays.toString(arr));
         }
-        System.out.println("Insertion Sorted Array :"+ Arrays.toString(arr));
+//        System.out.println("Insertion Sorted Array :"+ Arrays.toString(arr));
     }
 }

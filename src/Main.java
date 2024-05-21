@@ -1,10 +1,19 @@
-import com.linkedlist.algorithm.HackerrankInString;
-import com.linkedlist.algorithm.Rotation;
-import com.linkedlist.algorithm.ReversedList;
+import com.array.algorithm.BirthdayCakeCandles;
+import com.array.algorithm.StairCase;
+import com.basics.FactorialOfNumber;
+import com.linkedlist.algorithm.*;
+import com.sorting.algorithms.CountingSort;
+import com.sorting.algorithms.InsertionSort;
+import com.sorting.algorithms.InsertionSort1;
+import com.srting.algorithm.*;
+import com.stringbufferAndstingbuilder.CallBufferAndBuilder;
 import com.twodimensional.array.*;
 
+import java.lang.reflect.GenericArrayType;
+import java.sql.Time;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Formatter;
 import java.util.List;
 
 
@@ -15,8 +24,8 @@ public class Main {
 
 //        System.out.println("Initial Array :" + Arrays.toString(myArray));
 //        SelectionSort selectionSort = new SelectionSort();
-//        selectionSort.selectionSortingTeq(myArray);
-//        InsertionSort insertionSort = new InsertionSort();
+////        selectionSort.selectionSortingTeq(myArray);
+        InsertionSort insertionSort = new InsertionSort();
 //        insertionSort.insertionSort(myArray);
 //        BubbleSort bubbleSort = new BubbleSort();
 //        bubbleSort.bubbleSort(myArray);
@@ -95,7 +104,77 @@ public class Main {
         Rotation rotation = new Rotation();
 //        rotation.rightRotation(1,mylist);
         HackerrankInString hackerrankInString = new HackerrankInString();
-        System.out.println(hackerrankInString.hackerrankInString("hereiamstackerrank"));
+//        System.out.println(hackerrankInString.hackerrankInString("arhanackergrailknk"));
+        SortAlphanumeric sortAlphanumeric = new SortAlphanumeric();
+        String[] arrStr = new String[] {"fa10","b32","caba522"};
+//        sortAlphanumeric.sortAlphaNumeric(arrStr);
+
+        //======================================================================
+//        CallBufferAndBuilder callBufferAndBuilder = new CallBufferAndBuilder();
+//        callBufferAndBuilder.callBuffer();
+//        callBufferAndBuilder.callBuilder();
+
+        String[] words = new String[] {"This", "is", "an", "example", "of", "text", "justification."};
+        int max_width = 16;
+        FormateToMaxWidth formateToMaxWidth = new FormateToMaxWidth();
+        formateToMaxWidth.justify(words,max_width);
+//        System.out.println(formateToMaxWidth.justify(words,max_width));
+        StopWords stopWords = new StopWords();
+        String[] stopwords = new String[]{"I","as", "to", "you", "your", "but", "be", "a"};
+        String paragraph = "I want to figure out how I can be a better data scientist";
+//        System.out.println(paragraph);
+//        System.out.println(stopWords.stopwordsStripped(paragraph,stopwords));
+        StringConstruction stringConstruction = new StringConstruction();
+//        System.out.println(stringConstruction.stringConstruction("ababcc"));
+        Pangrams pangrams = new Pangrams();
+//        System.out.println(pangrams.pangrams("WwmdRukNYPMFBxYFPVtZrzs FAktokrLtdPy"));
+
+        DiagonalDifference diagonalDifference = new DiagonalDifference();
+        List<Integer> list1 = new ArrayList<Integer>();
+        list1.add(11);
+        list1.add(2);
+        list1.add(4);
+        List<Integer> list2 = new ArrayList<Integer>();
+        list2.add(4);
+        list2.add(5);
+        list2.add(6);
+        List<Integer> list3 = new ArrayList<Integer>();
+        list3.add(10);
+        list3.add(8);
+        list3.add(-12);
+
+        List<List<Integer>> arr = new ArrayList<>();
+        arr.add(list1);
+        arr.add(list2);
+        arr.add(list3);
+//        System.out.println("differece of two diagnoal  : "+diagonalDifference.diagonalDifference(arr));
+        StairCase stairCase = new StairCase();
+//        stairCase.staircase(4);
+        BirthdayCakeCandles birthdayCakeCandles  = new BirthdayCakeCandles();
+        List<Integer> candles = new ArrayList<>(
+                Arrays.asList(4,4,1,3));
+//        System.out.println("how many candles are tallest : "+birthdayCakeCandles.birthdayCakeCandles(candles));
+        TimeConversion timeConversion = new TimeConversion();
+//        System.out.println(timeConversion.timeConversion("12:45:54PM"));
+        MakeClock makeClock = new MakeClock();
+//        makeClock.watchTime();
+        List<Integer> list = new ArrayList<>(
+                Arrays.asList(1 ,3,3));
+        PlusMinus plusMinus = new PlusMinus();
+//        plusMinus.plusMinus(pm);
+        GradingStudents gradingStudents = new GradingStudents();
+//        System.out.println(gradingStudents.gradingStudents(list));
+        FactorialOfNumber factorialOfNumber = new FactorialOfNumber();
+//        factorialOfNumber.extraLongFactorials(25);
+
+        InsertionSort1 insertionSort1 = new InsertionSort1();
+//        insertionSort1.insertionSort1(14,list);
+
+        CountingSort countingSort = new CountingSort();
+        System.out.println(countingSort.countingSort(list));
+
+
+
 
 
 

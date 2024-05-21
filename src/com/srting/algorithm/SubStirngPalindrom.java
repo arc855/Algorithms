@@ -28,11 +28,6 @@ public class SubStirngPalindrom {
             if(flag == true && subStr.length()>1){
                 System.out.println(strlist.get(i));
             }
-
-//            PalindromString palindromString = new PalindromString();
-//            if(palindromString.checkPalindrom(strlist.get(i)) && strlist.get(i).length() >1){
-//                System.out.println(strlist.get(i));
-//            }
         }
 
     }
